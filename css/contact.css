@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-image: url('header-image.jpg'); 
+    background-image: url('../images/header-image.jpg'); 
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ header h1 {
 
 header p {
     font-family: stylesheet;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #ccc;
 }
 
@@ -80,18 +80,44 @@ section p {
     color: #d4d4d4;
 }
 
-ul {
+form ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
-    margin-bottom: 10px;
+form ul li {
+    margin-bottom: 15px;
 }
 
-ul li strong {
+form label {
     font-family: stylesheet;
     font-size: 1.2rem;
+    color: #ce0000;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a353a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #f2f2f2;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ce0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f2f2f2;
     color: #ce0000;
 }
 
@@ -105,7 +131,7 @@ footer {
 
 footer a {
     font-family: stylesheet;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: #ce0000;
     text-decoration: none;
 }

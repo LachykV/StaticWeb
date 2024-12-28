@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #0a0a0a, #2a353a); 
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('../images/header-image.jpg'); 
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 3px solid #ce0000;
+    color: #f2f2f2;
+}
+
+header h1 {
+    font-family: stylesheet;
+    letter-spacing: 2px;
+    font-size: 2.9em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-family: stylesheet;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+nav {
+    background-color: #080808;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-family: stylesheet;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    color: #ce0000;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #080808;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-family: stylesheet;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-family: stylesheet;
+    margin-bottom: 15px;
+    color: #d4d4d4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    font-family: stylesheet;
+    font-size: 1.2rem;
+    color: #ce0000;
+}
+
+.img-box {
+    display: flex;
+    justify-content: flex-start; /* Align images to the left */
+    align-items: flex-start; /* Aligns everything at the top */
+    gap: 10px; /* Optional: Add some space between images */
+  }
+  
+  /* Image styles */
+  .img-box img {
+    width: 150px; /* Set the default size */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+  }
+  
+  /* Hover effect to zoom the image */
+  .img-box img:hover {
+    transform: scale(1.2); /* Scale up the image by 20% */
+  }
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0a0a0a, #2a353a); 
+    color: #ccc;
+    border-top: 3px solid #ce0000;
+}
+
+footer a {
+    font-family: stylesheet;
+    font-size: 1.3em;
+    color: #ce0000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-family: stylesheet;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
